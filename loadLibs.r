@@ -1,3 +1,5 @@
+# Environment for linear regression
+
 loadLibs = function () {
   print("Loading libs...")
   library(dplyr)
