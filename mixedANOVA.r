@@ -13,7 +13,7 @@ data = read.csv2('YOUR_FILE', sep=',', encoding='1250')
 data <- data %>% select(YOUR_COLUMNS)
 
 # Convert some data into factors if needed
-data$COL <- factor(data$COL, levels=c(0, 1), labels=c('Female', 'Male'))
+data$sex <- factor(data$sex, levels=c(0, 1), labels=c('Female', 'Male'))
 
 # Rename your subject ID column if needed
 colnames(data)[1] <- 'subject'
